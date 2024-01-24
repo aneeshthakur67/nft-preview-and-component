@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background:  hsl(217, 54%, 11%);
+    padding-bottom: 20rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    top:10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:18.87rem;
+    height:35.25rem ;
+    padding: 1.5rem;
+    background: hsl(216, 50%, 16%);
+    border-radius: 12px ;
+}
+.element{
+   width: 100%;
+    border-radius: 12px;
+}
+.lower-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.title{
+    font-size: 1.37rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.info{
+   font-size: 1.12rem; 
+   color: hsl(215, 51%, 70%);
+}
+.collection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 0.93rem;
+}
+.left , .right{
+    display: flex;
+    align-items: center;
+}
+.left{
+    color: hsl(178, 100%, 50%);
+}
+.left p ,.right p{
+padding-left: 0.5rem;
+}
+.right{
+    color: hsl(215, 51%, 70%);
+}
+.creator{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: 1px solid white;
+    padding-top: 1rem;
+    font-size: 0.93rem;
+}
+.profile-pic{
+    width:2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 1rem;
+}
+.creator span{
+    color:hsl(215, 51%, 70%);
+}
+@media (max-width:500px){
+    .container{
+        top:2rem;
+    }
+}
